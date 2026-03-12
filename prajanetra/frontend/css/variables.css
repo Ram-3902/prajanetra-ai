@@ -1,0 +1,125 @@
+/* ============================================
+   PrajaNetra AI - Design System Tokens
+   Official Government White Minimal Theme
+   ============================================ */
+
+:root {
+  /* ── Primary Palette — Clean White ── */
+  --bg-primary: #f5f6fa;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8f9fd;
+  --bg-surface: #f0f2f8;
+  --bg-input: #f5f6fa;
+  --bg-modal-overlay: rgba(15, 23, 42, 0.45);
+
+  /* ── Accent Colors — Government Blue ── */
+  --accent-primary: #1a56db;
+  --accent-primary-hover: #1648b8;
+  --accent-secondary: #0e7490;
+  --accent-gold: #d97706;
+  --accent-gold-hover: #b45309;
+  --accent-emerald: #059669;
+  --accent-purple: #7c3aed;
+
+  /* ── Status Colors ── */
+  --status-submitted: #d97706;
+  --status-submitted-bg: rgba(217, 119, 6, 0.08);
+  --status-assigned: #1a56db;
+  --status-assigned-bg: rgba(26, 86, 219, 0.08);
+  --status-inprogress: #ea580c;
+  --status-inprogress-bg: rgba(234, 88, 12, 0.08);
+  --status-resolved: #059669;
+  --status-resolved-bg: rgba(5, 150, 105, 0.08);
+
+  /* ── Priority Colors ── */
+  --priority-critical: #dc2626;
+  --priority-critical-bg: rgba(220, 38, 38, 0.07);
+  --priority-high: #ea580c;
+  --priority-high-bg: rgba(234, 88, 12, 0.07);
+  --priority-medium: #d97706;
+  --priority-medium-bg: rgba(217, 119, 6, 0.07);
+  --priority-low: #059669;
+  --priority-low-bg: rgba(5, 150, 105, 0.07);
+
+  /* ── Text Colors ── */
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --text-accent: #1a56db;
+  --text-inverse: #ffffff;
+
+  /* ── Border Colors ── */
+  --border-primary: rgba(26, 86, 219, 0.18);
+  --border-subtle: #e2e8f0;
+  --border-strong: rgba(26, 86, 219, 0.35);
+
+  /* ── Gradients ── */
+  --gradient-primary: linear-gradient(135deg, #1a56db 0%, #0e7490 100%);
+  --gradient-accent: linear-gradient(135deg, #1a56db 0%, #0e7490 100%);
+  --gradient-gold: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  --gradient-card: linear-gradient(145deg, #ffffff 0%, #fafbfe 100%);
+  --gradient-header: linear-gradient(90deg, #1e3a5f 0%, #1a3b6d 50%, #1e3a5f 100%);
+  --gradient-sidebar: linear-gradient(180deg, #ffffff 0%, #f8f9fd 100%);
+
+  /* ── Typography ── */
+  --font-primary: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  --font-display: 'Outfit', 'Inter', sans-serif;
+
+  --text-xs: 0.7rem;
+  --text-sm: 0.8rem;
+  --text-base: 0.9rem;
+  --text-md: 1rem;
+  --text-lg: 1.15rem;
+  --text-xl: 1.35rem;
+  --text-2xl: 1.65rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* ── Spacing ── */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* ── Layout ── */
+  --sidebar-width: 260px;
+  --sidebar-collapsed: 68px;
+  --header-height: 60px;
+  --border-radius-sm: 6px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 14px;
+  --border-radius-xl: 20px;
+  --border-radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.1);
+  --shadow-glow-blue: 0 4px 16px rgba(26, 86, 219, 0.12);
+  --shadow-glow-gold: 0 4px 16px rgba(217, 119, 6, 0.12);
+  --shadow-card: 0 1px 4px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(26, 86, 219, 0.06);
+
+  /* ── Transitions ── */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* ── Z-index ── */
+  --z-sidebar: 100;
+  --z-header: 200;
+  --z-modal: 500;
+  --z-toast: 600;
+  --z-tooltip: 700;
+}
